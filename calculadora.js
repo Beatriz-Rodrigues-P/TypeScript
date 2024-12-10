@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var readlinesync = require("readline-sync");
+var numero1;
+var numero2;
+numero1 = readlinesync.questionFloat("\nDigite o primeiro numero: ");
+numero2 = readlinesync.questionFloat("Digite o primeiro numero: ");
+console.log("\nA soma dos dois numeros é igual a:", numero1 + numero2);
+console.log("A subtração dos dois numeros é igual a:", numero1 - numero2);
+console.log("A multiplicação dos dois numeros é igual a:", numero1 * numero2);
+console.log("A divisão dos dois numeros é igual a:", numero1 / numero2);
